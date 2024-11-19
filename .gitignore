@@ -1,0 +1,11 @@
+# Ignore les fichiers Docker temporaires
+*.log
+*.tmp
+*.pid
+
+# Ignore les volumes montés localement
+volumes/
+data/
+
+# Ignore les fichiers de config utilisateur (s'ils existent)
+.env.local
